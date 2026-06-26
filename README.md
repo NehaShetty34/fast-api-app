@@ -2,15 +2,38 @@
 
 ## creating fastapi application
 
-#status codes
+# Fast-api-app
+
+## creating fastapi application
+
+# CRUD operations
+-read
+-update
+-delete
+
+# Rest API
+-GET
+-POST
+-PUT
+-DELETE
+
+# STATUS CODES
 -200 OK
--201 Created
--204 No content
--400 Bad Request
--401 Unauthorized
--403 Forbidden
--404 Not Found
--405 Method Not allowed
--409 conflict
--500 Internal Server Error
+-201 CREATED
+-204 NO CONTENT
+-400 BAD REQUEST
+-401 UNAUTHORIZED
+-403 FORBIDDEN
+-404 NOT FOUND
+-405 METHOD NOT ALLOWED
+-409 CONFLICT
+-500 INTERNAL SERVER ERROR
+
+# ARCHITECTURE OF FASTAPI APPLICATION
+-MODEL --TABLES CREATION
+-ROUTER --ROUTES REQUESTS TO CONTROLLERS
+-CONTROLLER --CONTROLLER LOGIC
+-SERVICE --BUSINESS LOGIC
+-REPOSITORY --DATA ACCESS LAYER
+-MIDDLEWARE --REQUEST PROCESSING PIPELINE
 
