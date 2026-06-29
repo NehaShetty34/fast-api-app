@@ -7,7 +7,8 @@
 ## creating fastapi application
 
 # CRUD operations
--read
+-create
+-read/retrieve
 -update
 -delete
 
